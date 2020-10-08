@@ -4,7 +4,7 @@
 
 void usage()
 {
-	printf("usage: yetee [-a|-h] FileName¥n");
+	printf("usage: yetee [-a|-h] FileName\n");
 	exit(0);
 }
 
