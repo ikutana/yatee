@@ -1,31 +1,31 @@
-yatee�Ƃ�
- yatee�Ƃ� Yet Anothor Tee �ƌ����Ӗ��ł�.
- �W���o�͂�p�����v���O����������Ƃ���,���̏o�͂�W���o�͂ɏo�͂���,
- �C�ӂ̃t�@�C���ɕۑ����邱�Ƃ��ł��܂�.
+yateeとは
+ yateeとは Yet Anothor Tee と言う意味です.
+ 標準出力を用いたプログラムがあるときに,その出力を標準出力に出力しつつ,
+ 任意のファイルに保存することができます.
 
-�g�p���@
+使用方法
  yatee [[-a] [File Name]]
- �g�p��1
+ 使用例1
 	hoge | yatee hoge.txt |sort
-		�v���O����hoge�̏o�͂�hoge.txt�ɕۑ���,
-		�\�[�g�������ʂ�W���o�͂ɏo�͂��܂�.
- �g�p��2
+		プログラムhogeの出力をhoge.txtに保存し,
+		ソートした結果を標準出力に出力します.
+ 使用例2
 	hoge | yatee -a hoge.txt |sort
-		�v���O����hoge�̏o�͂������̃t�@�C��hoge.txt��
-		�ǉ���,�\�[�g�������ʂ�W���o�͂ɏo�͂��܂�.
+		プログラムhogeの出力を既存のファイルhoge.txtに
+		追加し,ソートした結果を標準出力に出力します.
 
-����
- �����,�G�N�X�v���[����ł��̃v���O�����Ƀt�@�C�����h���b�v�����ꍇ,
- �m���ɂ��̃t�@�C���̒��g�͏�����,�����͎�����s�\�ł��̂ł����ӂ�������.
+注意
+ 誤って,エクスプローラ上でこのプログラムにファイルをドロップした場合,
+ 確実にそのファイルの中身は消えて,復活は事実上不可能ですのでご注意ください.
 
-��舵��
- �t���[�E�F�A�Ƃ��Ĉ����܂�.�]�ڂ͎��R�ł�.
- �A�[�J�C�u�̓��e�����炷���Ƃ��֎~���܂�.
- �K�����������ꍇ�ɂ�,���̃t�@�C�����A�[�J�C�u�Ɋ܂߂Ă�������.
+取り扱い
+ フリーウェアとして扱います.転載は自由です.
+ アーカイブの内容を減らすことを禁止します.
+ 必ず改造した場合にも,元のファイルをアーカイブに含めてください.
 
-���쌠���
+著作権情報
  Copyright Yoshitaka Ikeda 2001
 
-��ҘA����
+作者連絡先
  E-mail :ikeda@4bn.ne.jp
  WebPage:http://www.4bn.ne.jp/~ikeda/
