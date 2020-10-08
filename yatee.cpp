@@ -49,6 +49,7 @@ int main(int argc, char* argv[])
 	while(!feof(stdin))
 	{
 		tmp=fgetc(stdin);
+		if (tmp==-1) continue;
 		fputc(tmp,stdout);
 		if(fp != NULL) fputc(tmp,fp);
 	}
